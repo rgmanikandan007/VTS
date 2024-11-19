@@ -23,12 +23,13 @@ body button,li{
 }
 
 .navbar-logo img {
-    width: 120px;
+    width: 80px;
 }
 
 .navbar-links ul {
     display: flex;
     list-style-type: none;
+    padding-top: 1.5rem;
 }
 
 .navbar-links ul li a,
