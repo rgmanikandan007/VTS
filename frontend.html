@@ -32,7 +32,7 @@
                         <div class="dropdown-content">
                             <a href="frontend.html">Frontend Development</a>
                             <a href="backendpython.html">Backend Development (Python)</a>
-                            <a href="backendnodejs.html">Backend Development (Node.Js)</a>
+                            <a href="backendnode.html">Backend Development (Node.Js)</a>
                             <a href="backendjava.html">Backend Development (Java)</a>
                             <a href="mernstack.html">MERN Stack Development</a>
                         </div>
@@ -61,9 +61,32 @@
     </div>
     <!-- Frontend banner End -->
 
+    <!-- Bredcrumbs Start -->
+    <div class="bredcrumbs">
+        <div class="bredcrumbs-container">
+            <div class="bredcrumbs-child">
+                <i class="fa-solid fa-home"></i>
+                <h5><a href="home.html">Home</a></h5>
+                <span>></span>
+                <h5><a href="#frontend">About Us</a></h5>
+                <span>></span>
+                <h5><a href="#syllabus">Syllabus</a></h5>
+                <span>></span>
+                <h5><a href="#takecourse">Take Course</a></h5>
+                <span>></span>
+                <h5><a href="#course-details">Course Details</a></h5>
+                <span>></span>
+                <h5><a href="#get-certificate">Get Certificate</a></h5>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <!-- Bredcrumbs End -->
+
+
 
     <!-- frontend Start -->
-    <div class="frontend">
+    <div class="frontend" id="frontend">
         <h1 class="frontend-head">Frontend <span style="color: #ff8800;">Development</span></h1>
         <div class="frontend-container">
             <div class="top-frontend">
@@ -90,7 +113,7 @@
 
 
     <!-- Outline Start -->
-    <div class="outline">
+    <div class="outline" id="syllabus">
         <h2>Front-End Web Development <span style="color: #ff8800;"> Course Outline</span></h2>
         <div class="outline-container">
             <div class="firstchild">
@@ -178,7 +201,7 @@
     <!-- Outline End -->
 
     <!-- Take Course Start -->
-    <div class="takecourse">
+    <div class="takecourse" id="takecourse">
         <h2>Ways to <span style="color: #ff8800;"> Take</span> this course</h2>
         <p>Experience live, interactive learning from home with The Knowledge Academy's Online Instructor-led Front-End
             Web Development Course. Engage directly with expert instructors, mirroring the classroom schedule for a
@@ -218,7 +241,7 @@
     <!-- Take Course End -->
 
 
-    <div class="course-summary">
+    <div class="course-summary" id="course-details">
         <h2>Frontend Development Course</h2>
         <p>Learn essential web development skills and build real-world projects. Below are key details about the course:</p>
 
@@ -248,8 +271,8 @@
         </details>
     </div>
 
-
-    <div class="certification-section">
+ 
+    <div class="certification-section" id="get-certificate">
         <h2>Download Sample Certification</h2>
         <img src="images/certificate.png" alt="Certificate" id="certificate">
         <p>Click the button below to download your certificate.</p>
@@ -319,11 +342,11 @@
 
     <script>
         document.getElementById('download-btn').addEventListener('click', function () {
-            const imageUrl = document.getElementById('certificate').src; // Get the image URL
-            const a = document.createElement('a'); // Create an anchor element
-            a.href = imageUrl; // Set the href to the image URL
-            a.download = 'certificate.jpg'; // Set the download attribute (default file name)
-            a.click(); // Trigger the download
+            const imageUrl = document.getElementById('certificate').src; 
+            const a = document.createElement('a'); 
+            a.href = imageUrl; 
+            a.download = 'certificate.jpg';
+            a.click(); 
         });
 
     </script>

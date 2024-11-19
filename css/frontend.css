@@ -134,6 +134,33 @@ body button,li{
 }
 /* Banner End */
 
+
+/* Bredcrumbs Start */
+.bredcrumbs{
+    padding-top: 2rem;
+    margin-left: 5rem;
+}
+.bredcrumbs-child{
+    display: flex;
+}
+.bredcrumbs-child i,h5,span{
+    margin-left: 1rem;
+}
+.bredcrumbs-child a{
+    text-decoration: none;
+    color: black;
+}
+.bredcrumbs hr{
+    margin-top: 1rem;
+    width: 95%;
+    color: #646464;
+}
+/* Bredcrumbs End */
+
+
+
+
+
 /* frontend Start */
 .frontend-head{
     text-align: center;
