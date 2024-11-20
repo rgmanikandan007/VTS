@@ -117,7 +117,7 @@ body button,li{
 
 /* Banner Start */
 .bg-img {
-    background: linear-gradient(rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0.767)), url(/images/uiux-banner.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0.767)), url(images/uiux-banner.png);
     padding: 5rem; 
     background-size: cover;
 }
@@ -231,12 +231,12 @@ body button,li{
 }
 .scroll-content {
     display: flex;
-    width: calc(100vw * 10); /* Allows for seamless looping */
+    width: calc(100vw * 10); 
     animation: scroll-left 15s linear infinite;
 }
 
 .card {
-    flex: 0 0 20vw; /* Each card takes up 20% of the screen width */
+    flex: 0 0 20vw; 
     display: flex;
     flex-direction: column;
     align-items: center;

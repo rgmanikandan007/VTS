@@ -117,7 +117,7 @@ body button,li{
 
 /* Banner Start */
 .bg-img {
-    background: linear-gradient(rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0.767)), url(/images/python-banner.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0.767)), url(images/python-banner.jpg);
     padding: 5rem; 
     background-size: cover;
 }
