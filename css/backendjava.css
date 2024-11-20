@@ -296,6 +296,10 @@ body button,li{
     display: flex;
     justify-content: space-around;
 }
+.syllabus-btn {
+    text-align: center;
+    margin-top: 2rem;
+}
 /* Outline End */
 
 

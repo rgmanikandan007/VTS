@@ -294,6 +294,7 @@ body button,li{
     background-color: rgb(250, 243, 234);
     /* color: #fff; */
     margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 .future h2{
     margin-bottom: 1rem;
@@ -331,6 +332,68 @@ body button,li{
 }
 /* future End */
 
+
+
+
+
+
+.course-summary {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    width: 30%;
+    /* text-align: left; */
+    /* width: 90%; */
+    /* max-width: 600px; */
+}
+
+.course-summary h2 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.course-summary p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.course-summary ul li{
+    margin-left: 3rem;
+}
+details {
+    margin-bottom: 15px;
+}
+
+summary {
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+    /* background-color: #ff9317; */
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+summary:hover {
+    background-color: #ffd0a4;
+}
+
+p {
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 0 10px;
+    color: #555;
+}
+.syllabus-btn{
+    text-align: center;
+    margin-top: 2rem;
+}
+.syllabus-btn button{
+    padding: 10px 40px;
+}
 
 
 

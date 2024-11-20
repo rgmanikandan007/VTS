@@ -308,6 +308,13 @@ p {
     padding: 0 10px;
     color: #555;
 }
+.all-summary{
+    text-align: center;
+}
+.all-summary button{
+    margin-top: 1rem;
+    letter-spacing: 2px;
+}
 /* Syllabus End */
 
 
