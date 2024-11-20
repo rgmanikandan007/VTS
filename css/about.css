@@ -51,6 +51,7 @@ body button,li{
     margin-top: 5px;
     padding: 10px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.200);
+    z-index: 1;
 }
 .dropdown-content a:hover {
     background-color: #fde6b5;
@@ -116,11 +117,6 @@ body button,li{
 
 
 /* Banner Start */
-.bg-img {
-    background: linear-gradient(rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0.767)), url(/Images/about-inside.jpg);
-    padding: 5rem; 
-    background-size: cover;
-}
 .banner-container{
     display: flex;
     justify-content: space-around;

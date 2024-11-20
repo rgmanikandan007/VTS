@@ -154,22 +154,22 @@ body button,li{
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
-    width: 700px;
+    width: 500px;
     text-align: center;
     position: relative;
 }
 .login input{
     padding: 10px 70px;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     margin-left: 1rem;
 }
-.flex{
-    display: flex;
-    margin-top: 10px;
+.selectt select{
+    padding: 10px 90px;
+    margin-top: 1rem;
 }
 .inputfull input{
-    padding: 10px 230px;
-    margin-top: 2rem;
+    padding: 10px 100px;
+    margin-top: 1rem;
     margin-right: 1rem;
 }
 .close {
@@ -184,7 +184,7 @@ body button,li{
     color: #fa992a;
 }
 .submit-btn input{
-    padding: 10px 70px;
+    padding: 10px 60px;
     background-color: #fa992a;
     color: #fff;
     border: none;

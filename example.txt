@@ -12,7 +12,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-    <!-- FONT AWESOME LINK -->
+        <!-- FONT AWESOME LINK -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 
@@ -52,9 +52,10 @@
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <h2>Enquiry Details</h2>
-                <form action="about.html" required>
-                    <div class="inputfull">
-                        <input type="text" id="tname" placeholder="Enter Your Name" required>
+                <form action="about.html">
+                    <div class="flex">
+                        <input type="text" id="firstname" placeholder="Enter Your Firstname" required>
+                        <input type="text" id="lastname" placeholder="Enter Your Lastname" required>
                     </div>
                     <div class="inputfull">
                         <input type="email" id="email" placeholder="Enter Your Email" required>
@@ -65,26 +66,17 @@
                     <div class="inputfull">
                         <input type="text" id="address" placeholder="Enter Your Address" required>
                     </div>
-                    <div class="inputfull">
+                    <div class="flex">
                         <input type="text" id="city" placeholder="Enter Your City" required>
-                    </div>
-                    <div class="inputfull">
                         <input type="text" id="state" placeholder="Enter Your State" required>
                     </div>
-                    <div class="selectt">
-                        <select id="options" name="options" >
-                            <option value="Our Course">Select Our Course</option>
-                            <option value="value2">Frontend Development</option>
-                            <option value="value3">Backend (Python)</option>
-                            <option value="value4">Backend (Java)</option>
-                            <option value="value5">MERN Stack Development</option>
-                            <option value="value5">Data Analytics</option>
-                            <option value="value5">UI/UX Design</option>
-                        </select>
+                    <div class="flex">
+                        <input type="text" id="country" placeholder="Enter Your Country" required>
+                        <input type="text" id="pincode" placeholder="Enter Your Pincode" required>
                     </div>
                     <div class="submit-btn">
                         <input type="submit">
-                    </div>
+                    </div>  
                 </form>
             </div>
         </div>

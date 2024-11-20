@@ -50,6 +50,7 @@ body button,li{
     border-radius: 10px;
     margin-top: 5px;
     padding: 10px;
+    z-index: 1;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.200);
 }
 .dropdown-content a:hover {
@@ -116,11 +117,7 @@ body button,li{
 
 
 /* Banner Start */
-.bg-img {
-    background: linear-gradient(rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0.767)), url(images/python-banner.jpg);
-    padding: 5rem; 
-    background-size: cover;
-}
+
 .banner-container{
     display: flex;
     justify-content: space-around;
