@@ -12,6 +12,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+        <!-- FONT AWESOME LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 
 <body>
@@ -23,31 +25,90 @@
             </div>
             <div class="navbar-links" id="navbar-links">
                 <ul>
-                    <li><a href="about.html">About Us</a></li>
+                    <!-- <li><a href="about.html">About Us</a></li> -->
                     <li class="dropdown">
-                        <a href="#" class="dropbtn">Our Training</a>
+                        <!-- <a href="#" class="dropbtn">Our Training</a> -->
                         <div class="dropdown-content">
                             <!-- <a href="comingsoon.html">Frontend Development</a> -->
-                            <a href="backendpython.html">Backend Development (Python)</a>
+                            <!-- <a href="backendpython.html">Backend Development (Python)</a> -->
                             <!-- <a href="comingsoon.html">Backend Development (Node.Js)</a> -->
-                            <a href="backendjava.html">Backend Development (Java)</a>
-                            <a href="uiux.html">UI/UX Design</a>
+                            <!-- <a href="backendjava.html">Backend Development (Java)</a> -->
+                            <!-- <a href="uiux.html">UI/UX Design</a> -->
                         </div>
                     </li>
-                    <li><a href="categories.html">Careers</a></li>
+                    <!-- <li><a href="categories.html">Careers</a></li> -->
                 </ul>
             </div>
-            <div class="search-box">
-                <input type="text" placeholder="Search for courses..." id="search">
-                <button class="search-btn" type="submit">&#x1F50D;</button>
+            <div class="user">
+                <p id="openModal">Student Enquiry &nbsp;:&nbsp; <i class="fa-solid fa-user"></i></p>
             </div>
-
-            <button class="navbar-toggle" id="toggle-btn">&#9776;</button>
-            <button class="navbar-close" id="close-btn">&times;</button>
         </div>
     </div>
     <!-- Navbar End -->
 
+    <!-- Login Start -->
+    <div class="login">
+        <div id="loginModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Enquiry Details</h2>
+                <form action="about.html">
+                    <div class="flex">
+                        <input type="text" id="firstname" placeholder="Enter Your Firstname" required>
+                        <input type="text" id="lastname" placeholder="Enter Your Lastname" required>
+                    </div>
+                    <div class="inputfull">
+                        <input type="email" id="email" placeholder="Enter Your Email" required>
+                    </div>
+                    <div class="inputfull">
+                        <input type="tel" id="mobile" placeholder="Enter Your Mobile Number" required>
+                    </div>
+                    <div class="inputfull">
+                        <input type="text" id="address" placeholder="Enter Your Address" required>
+                    </div>
+                    <div class="flex">
+                        <input type="text" id="city" placeholder="Enter Your City" required>
+                        <input type="text" id="state" placeholder="Enter Your State" required>
+                    </div>
+                    <div class="flex">
+                        <input type="text" id="country" placeholder="Enter Your Country" required>
+                        <input type="text" id="pincode" placeholder="Enter Your Pincode" required>
+                    </div>
+                    <div class="submit-btn">
+                        <input type="submit">
+                    </div>  
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Login End -->
+
+
+    <script>
+        const modal = document.getElementById("loginModal");
+        const openModalButton = document.getElementById("openModal");
+        const closeModalButton = document.querySelector(".close");
+
+        openModalButton.onclick = () => {
+            modal.style.display = "flex";
+        };
+
+        closeModalButton.onclick = () => {
+            modal.style.display = "none";
+        };
+    </script>
+
+    <!-- <script>
+        const modal2 = document.getElementById("loginModal");
+        const name2 = document.getElementById("username");
+        const password2 = document.getElementById("password");
+
+        if(name2 == "" && password2 == ""){
+            alert("Please Enter Section")
+        } else {
+            alert("Successfully Submitted")
+        }
+    </script> -->
 
 
 </body>
