@@ -60,7 +60,7 @@
                         <input type="email" id="email" placeholder="Enter Your Email" required>
                     </div>
                     <div class="inputfull">
-                        <input type="tel" id="mobile" placeholder="Enter Your Mobile Number" required>
+                        <input type="text" id="mobile" onkeydown="return /[0-9]/.test(event.key) || event.key === 'Backspace'" maxlength="10" minlength="10" placeholder="Enter Your Mobile Number" required>
                     </div>
                     <div class="inputfull">
                         <input type="text" id="address" placeholder="Enter Your Address" required>
@@ -72,7 +72,7 @@
                         <input type="text" id="state" placeholder="Enter Your State" required>
                     </div>
                     <div class="selectt">
-                        <select id="options" name="options" >
+                        <select id="options" name="options">
                             <option value="Our Course">Select Our Course</option>
                             <option value="value2">Frontend Development</option>
                             <option value="value3">Backend (Python)</option>

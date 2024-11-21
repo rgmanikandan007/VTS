@@ -278,6 +278,7 @@ body button,li{
     margin-top: 2rem;
     padding: 2rem;
     width: 220px;
+    cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
 .child-placement i{
