@@ -46,7 +46,7 @@ body button,li{
     display: none;
     position: absolute;
     background-color: #ffffff;
-    min-width: 150px;
+    min-width: 250px;
     border-radius: 10px;
     margin-top: 5px;
     z-index: 1;
@@ -277,6 +277,7 @@ body button,li{
 .child-placement{
     margin-top: 2rem;
     padding: 2rem;
+    width: 220px;
     box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
 .child-placement i{
