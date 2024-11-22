@@ -113,6 +113,20 @@ body button,li{
 .navbar-close {
     display: none;
 }
+.user{
+    padding-top: 1.5rem;
+    margin-right: 1rem;
+}
+.user p{
+    font-size: 15px;
+}
+.user i{
+    color: #1a940a;
+    border: 1px solid #1a940a;
+    padding: 7px;
+    border-radius: 50px;
+    cursor: pointer;
+}
 /* Navbar End */
 
 
