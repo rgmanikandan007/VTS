@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Backend(Python) Development</title>
+    <title>FullStack Node Js</title>
     <link rel="stylesheet" href="css/backendnode.css">
     <!-- GOOGLE FONT LINK -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,7 +21,7 @@
     <div class="navbar">
         <div class="navbar-container">
             <div class="navbar-logo">
-                <a href="home.html"><img src="images/navlogo.jpg" alt="navlogo"></a>
+                <a href="index.html"><img src="images/VTS Logo-1.png" alt="navlogo"></a>
             </div>
             <div class="navbar-links" id="navbar-links">
                 <ul>
@@ -30,20 +30,20 @@
                     <li class="dropdown">
                         <a href="#" class="dropbtn">Our Training</a>
                         <div class="dropdown-content">
-                            <!-- <a href="frontend.html">Frontend Development</a> -->
-                            <a href="backendpython.html">Backend Development (Python)</a>
-                            <!-- <a href="backendnode.html">Backend Development (Node.Js)</a> -->
-                            <a href="backendjava.html">Backend Development (Java)</a>
-                            <a href="mernstack.html">UI/UX Design</a>
+                            <a href="frontend.html">Frontend Development</a>
+                            <a href="backendpython.html">Python FullStack</a>
+                            <a href="backendnode.html">Backend (Node.Js)</a>
+                            <a href="backendjava.html">Java FullStack</a>
+                            <a href="uiux.html">UI/UX Design</a>
                         </div>
                     </li>
                     <li><a href="categories.html">Careers</a></li>
                 </ul>
             </div>
-            <div class="search-box">
-                <input type="text" placeholder="Search for courses..." id="search">
-                <button class="search-btn" type="submit">&#x1F50D;</button>
+            <div class="user">
+                <p id="openModal">Logout &nbsp;:&nbsp; <a href="index.html"><i class="fa-solid fa-user"></i></a></p>
             </div>
+
 
             <button class="navbar-toggle" id="toggle-btn">&#9776;</button>
             <button class="navbar-close" id="close-btn">&times;</button>
@@ -52,31 +52,57 @@
     <!-- Navbar End -->
 
     <!-- backend banner Start -->
-    <div class="banner">
-        <div class="bg-img">
-            <div class="banner-container">
-                <h1><span style="color: #ff8800;">Backend (Node JS) </span> Development</h1>
+    <div class="banner" style="position: relative; text-align: center; color: white;">
+        <div class="bg-img" style="position: relative;">
+            <img src="images/nodebanner.png" alt="Python Banner" style="width: 100%; height: 220px; object-fit: cover; filter: brightness(30%);">
+            <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                <h1>
+                    <span style="color: #ff8800;">Backend</span> ( Node JS )
+                </h1>
             </div>
         </div>
     </div>
     <!-- backend banner End -->
 
 
+    <!-- Bredcrumbs Start -->
+    <div class="bredcrumbs">
+        <div class="bredcrumbs-container">
+            <div class="bredcrumbs-child">
+                <i class="fa-solid fa-home"></i>
+                <h5><a href="home.html">Home</a></h5>
+                <span>></span>
+                <h5><a href="#frontend">About Us</a></h5>
+                <span>></span>
+                <h5><a href="#syllabus">Tools</a></h5>
+                <span>></span>
+                <h5><a href="#takecourse">Take Course</a></h5>
+                <span>></span>
+                <h5><a href="#course-details">Course Details</a></h5>
+                <span>></span>
+                <h5><a href="#get-certificate">Get Certificate</a></h5>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <!-- Bredcrumbs End -->
+
+
     <!-- backend Start -->
     <div class="backend">
-        <h1 class="backend-head">Backend (Node JS) <span style="color: #ff8800;">Development</span></h1>
+        <h1 class="backend-head">Backend <span style="color: #ff8800;">Node JS</span></h1>
         <div class="backend-container">
             <div class="top-backend">
                 <div class="left-backend">
-                    <img src="images/nodejs-about.png" alt="backend-image">
+                    <img src="images/nodejs-about.png" alt="backend-image" style="filter: brightness(50%);">
                 </div>
                 <div class="right-backend">
-                    <h4>In Just 10 Weeks With Us, <span style="color: #ff8800;">You Can</span></h4>
-                    <h1>Job brief</h1>
-                    <p>Python Developer responsibilities include:<br><br>
+                    <h4>Node JS using to In Just 10 Weeks With Us, <span style="color: #ff8800;">You Can</span></h4>
+                    <h2>MERN or MEAN Developer</h2>
+                    <p>Node JS responsibilities include:<br><br>
 
-                        UWriting server-side logic and code using Python.Creating reusable and efficient back-end
-                        components to improve application performance. <br>
+                        Writing server-side logic and code using Python.Creating reusable and efficient back-end
+                        components to improve application performance.
                         Optimizing applications for maximum speed. <br><br>
                         Designing and implementing RESTful APIs to facilitate communication between services.
                         Integrating third-party APIs into applications and working on API documentation.
@@ -92,31 +118,32 @@
 
     <!-- Scroll Start -->
     <div class="scroll-container">
+        <h1 style="text-align: center; margin-bottom: 2rem;">Developer <span style="color: #ff8800;">Tools</span></h1>
         <div class="scroll-content" id="scrollContent">
             <div class="item">
-                <img src="image1.jpg" alt="Image 1">
-                <h2>Heading 1</h2>
-                <p>This is a description for Image 1.</p>
+                <img src="images/expressjs.png" alt="Image 1">
+                <h2>Express Js</h2>
+                <p>Express tool</p>
             </div>
             <div class="item">
-                <img src="image2.jpg" alt="Image 2">
-                <h2>Heading 2</h2>
-                <p>This is a description for Image 2.</p>
+                <img src="images/socket.png" alt="Image 2">
+                <h2>Socket</h2>
+                <p>Socket tool</p>
             </div>
             <div class="item">
-                <img src="image3.jpg" alt="Image 3">
-                <h2>Heading 3</h2>
-                <p>This is a description for Image 3.</p>
+                <img src="images/babel.png" alt="Image 3">
+                <h2>Babel</h2>
+                <p>Babel tool</p>
             </div>
             <div class="item">
-                <img src="image4.jpg" alt="Image 4">
-                <h2>Heading 4</h2>
-                <p>This is a description for Image 4.</p>
+                <img src="images/keystone.jpg" alt="Image 4">
+                <h2>Keystone</h2>
+                <p>Keystone tool</p>
             </div>
             <div class="item">
-                <img src="image5.jpg" alt="Image 5">
-                <h2>Heading 5</h2>
-                <p>This is a description for Image 5.</p>
+                <img src="images/meteor.png" alt="Image 5">
+                <h2>Meteor</h2> 
+                <p>Meteor tool</p>
             </div>
         </div>
     </div>
@@ -158,8 +185,8 @@
     <div class="certification-section">
         <h2>Download Sample Certification</h2>
         <img src="images/certificate.png" alt="Certificate" id="certificate">
-        <p>Click the button below to download your certificate.</p>
-        <button id="download-btn">Download Certificate</button>
+        <!-- <p>Click the button below to download your certificate.</p>
+        <button id="download-btn">Download Certificate</button> -->
     </div>
     <!-- Certification End -->
 

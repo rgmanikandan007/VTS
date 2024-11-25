@@ -259,11 +259,11 @@ body button,li{
     cursor: pointer;
     padding: 1rem;
     border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    box-shadow: rgba(253, 106, 37, 0.15) 2.4px 2.4px 3.2px;
 }
 .child-services:hover{
     transform: translateY(-5px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(255, 161, 19, 0.1);
 }
 .child-services img{
     width: 50%;
