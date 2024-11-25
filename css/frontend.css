@@ -23,12 +23,13 @@ body button,li{
 }
 
 .navbar-logo img {
-    width: 120px;
+    width: 80px;
 }
 
 .navbar-links ul {
     display: flex;
     list-style-type: none;
+    padding-top: 1.5rem;
 }
 
 .navbar-links ul li a,
@@ -45,10 +46,11 @@ body button,li{
     display: none;
     position: absolute;
     background-color: #ffffff;
-    min-width: 150px;
+    min-width: 250px;
     border-radius: 10px;
     margin-top: 5px;
     padding: 10px;
+    z-index: 1;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.200);
 }
 .dropdown-content a:hover {
@@ -111,15 +113,24 @@ body button,li{
 .navbar-close {
     display: none;
 }
+.user{
+    padding-top: 1.5rem;
+    margin-right: 1rem;
+}
+.user p{
+    font-size: 15px;
+}
+.user i{
+    color: #1a940a;
+    border: 1px solid #1a940a;
+    padding: 7px;
+    border-radius: 50px;
+    cursor: pointer;
+}
 /* Navbar End */
 
 
 /* Banner Start */
-.bg-img {
-    background: linear-gradient(rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0.767)), url(/images/frontend.jpg);
-    padding: 5rem; 
-    background-size: cover;
-}
 .banner-container{
     display: flex;
     justify-content: space-around;
@@ -139,6 +150,8 @@ body button,li{
 .bredcrumbs{
     padding-top: 2rem;
     margin-left: 5rem;
+    margin: auto;
+    width: 50%;
 }
 .bredcrumbs-child{
     display: flex;
@@ -221,6 +234,10 @@ body button,li{
 .outline-container{
     display: flex;
     justify-content: space-around;
+}
+.syllabus-btn{
+    text-align: center;
+    margin-top: 4rem;
 }
 /* Outline End */
 

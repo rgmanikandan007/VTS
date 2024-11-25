@@ -21,7 +21,7 @@
     <div class="navbar">
         <div class="navbar-container">
             <div class="navbar-logo">
-                <a href="index.html"><img src="images/navlogo.jpg" alt="navlogo"></a>
+                <a href="index.html"><img src="images/VTS Logo-1.png" alt="navlogo"></a>
             </div>
             <div class="navbar-links" id="navbar-links">
                 <ul>
@@ -30,20 +30,20 @@
                     <li class="dropdown">
                         <a href="#" class="dropbtn">Our Training</a>
                         <div class="dropdown-content">
-                            <!-- <a href="frontend.html">Frontend Development</a> -->
-                            <a href="backendpython.html">Backend Development (Python)</a>
+                            <a href="frontend.html">Frontend Development</a>
+                            <a href="backendpython.html">Python FullStack</a>
                             <!-- <a href="backendnode.html">Backend Development (Node.Js)</a> -->
-                            <a href="backendjava.html">Backend Development (Java)</a>
-                            <a href="mernstack.html">UI/UX Design</a>
+                            <a href="backendjava.html">Java FullStack</a>
+                            <a href="uiux.html">UI/UX Design</a>
                         </div>
                     </li>
                     <li><a href="categories.html">Careers</a></li>
                 </ul>
             </div>
-            <div class="search-box">
-                <input type="text" placeholder="Search for courses..." id="search">
-                <button class="search-btn" type="submit">&#x1F50D;</button>
+            <div class="user">
+                <p id="openModal">Logout &nbsp;:&nbsp; <a href="index.html"><i class="fa-solid fa-user"></i></a></p>
             </div>
+
 
             <button class="navbar-toggle" id="toggle-btn">&#9776;</button>
             <button class="navbar-close" id="close-btn">&times;</button>
@@ -52,10 +52,13 @@
     <!-- Navbar End -->
 
     <!-- Frontend banner Start -->
-    <div class="banner">
-        <div class="bg-img">
-            <div class="banner-container">
-                <h1><span style="color: #ff8800;">Frontend </span> Development</h1>
+    <div class="banner" style="position: relative; text-align: center; color: white;">
+        <div class="bg-img" style="position: relative;">
+            <img src="images/frontend.jpg" alt="Python Banner" style="width: 100%; height: 220px; object-fit: cover; filter: brightness(20%);">
+            <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                <h1>
+                    <span style="color: #ff8800;">Frontend</span> Development
+                </h1>
             </div>
         </div>
     </div>
@@ -197,6 +200,9 @@
                 </div>
             </div>
         </div>
+        <div class="syllabus-btn">
+            <button id="download-syllabus">Download Syllabus</button>
+        </div>
     </div>
     <!-- Outline End -->
 
@@ -275,8 +281,8 @@
     <div class="certification-section" id="get-certificate">
         <h2>Download Sample Certification</h2>
         <img src="images/certificate.png" alt="Certificate" id="certificate">
-        <p>Click the button below to download your certificate.</p>
-        <button id="download-btn">Download Certificate</button>
+        <!-- <p>Click the button below to download your certificate.</p>
+        <button id="download-btn">Download Certificate</button> -->
     </div>
 
 
